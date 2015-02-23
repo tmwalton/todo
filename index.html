@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To-Do</title>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+	</head>
+
+  <body>
+  	<div class="text-center">
+    	<h1>Things To-Do</h1>
+    	
+    	<div class="input-group">
+  				<input type="text" class="form-control" placeholder="New To-Do Item" aria-describedby="basic-addon2">
+  			<span class="input-group-btn"><button class="btn btn-default" id="add" type="button">Add new To-Do</button></span>
+		</div>
+
+		<div id="wrapper">
+			<div class="list-group">
+				<div class="list-item"></div>
+
+			<!--
+			<div class="list-item">
+				<li class="list-group-item list-group-item-danger">Something to do</li><button class="btn btn-danger list-button">Incomplete</button>
+			</div>
+
+			<div class="list-item">
+				<li class="list-group-item list-group-item-success">Something done</li><button class="btn btn-success list-button">Complete</button>
+			</div>
+			-->
+
+			</div>
+		</div>
+	</div>
+
+	<div class="text-center delete" id="delete">
+		<button class="btn">Delete Completed Items</button>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+
+
+  </body>
+</html>
